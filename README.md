@@ -19,6 +19,13 @@ A mobile application with token authentication that allows the user to take pict
 ## Contents
 
 - [Deep Learning Models](#Deep-Learning-Models)
+- [Model 1 (YOLOv8)](#Model-1-(YOLOv8))
+- [Dataset](#Dataset)
+- [Data Preparation](#Data-Preparation)
+- [Data Storage and Organization](#Data-Storage-and-Organization)
+- [Code for training the model](#Code-for-training-the-model)
+- [Model 1 Evaluation](#Model-1-Evaluation)
+- [Sample Predictions - Real World Data](#Sample-Predictions---Real-World-Data)
 
 
 
@@ -100,7 +107,7 @@ The Data Was prepared using Roboflow and exported for YOLOv8. You can find the R
 
 ![Sample](https://i.imgur.com/gNVizPg.jpeg)
 
-#### Data storage and organization
+#### Data Storage and Organization
 ```
 Dataset
 |-->Test
