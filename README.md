@@ -26,6 +26,18 @@ A mobile application with token authentication that allows the user to take pict
 - [Code for training the model](#Code-for-training-the-model)
 - [Model 1 Evaluation](#Model-1-Evaluation)
 - [Sample Predictions - Real World Data](#Sample-Predictions---Real-World-Data)
+- [Model 2 (YOLOv5)](#Model-2-(YOLOv5))
+- [Initial Setup](#Initial-setup)
+- [Training the model](#Training-the-model)
+- [Making a Prediction using the model](#Making-a-Prediction-using-the-model:)
+- [Deploying from Roboflow](#Deploying-from-Roboflow)
+- [Inspector Diet - The Application](#Inspector-Diet---The-Application)
+- [Django Webserver](#Django-Webserver)
+- [The Android Application](#The-Android-Application)
+- [How to use the server](#How-to-use-the-Server?)
+- [How to use the android application](#How-to-use-the-Android-Application?)
+- [Demo](#Demo)
+- [Acknowledgements](#Acknowledgements)
 
 
 
