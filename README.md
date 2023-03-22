@@ -16,7 +16,9 @@ A mobile application with token authentication that allows the user to take pict
 - Ruth Moly Benjamin
 
 
-##Contents
+## Contents
+
+- [Deep Learning Models](#Deep-Learning-Models)
 
 
 
