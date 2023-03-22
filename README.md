@@ -29,7 +29,7 @@ A mobile application with token authentication that allows the user to take pict
 - [Model 2 (YOLOv5)](#Model-2-(YOLOv5))
 - [Initial Setup](#Initial-setup)
 - [Training the model](#Training-the-model)
-- [Making a Prediction using the model](#Making-a-Prediction-using-the-model:)
+- [Making a Prediction using the model](#Making-a-Prediction-using-the-model)
 - [Deploying from Roboflow](#Deploying-from-Roboflow)
 - [Inspector Diet - The Application](#Inspector-Diet---The-Application)
 - [Django Webserver](#Django-Webserver)
@@ -403,7 +403,7 @@ Test Image 2:
 image 2/41 /content/datasets/food-detector-4/test/images/11_jpg.rf.f.jpg: 640x640 1 Chapathi, 12.7ms
 ![](https://i.imgur.com/czTNWAJ.png)
 
-### Making a Prediction using the model:
+### Making a Prediction using the model
 
 In order to make a prediction, create a new directory to store the new test pictures. after that run the following line of code.
 The file 'download.jpg' is the image we wish to predict and its directory must be after --source.
