@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="name_prompt">User Name</string>
+    <string name="pass_prompt">Password</string>
+    <string name="camera_button_description">Launch Camera</string>
+    <string name="Salutation">HEY...</string>
+    <string name="title_activity_food_picker">FoodPicker</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="localhost">192.168.54.122</string>
+    <string name="port">8000</string>
+</resources>
