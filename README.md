@@ -13,13 +13,11 @@ A mobile application with token authentication that allows the user to take pict
 - Joel Mathew
 - Caleb Stephen
 - Gibin K Jayan
-- Ruth Moly Benjamin
+- Ruth Molly Benjamin
 
 
-## Contents
+##Contents
 
-- [Deep Learning Models](#Deep Learning Models)
-- [Model 1 (YOLOv8)](#Model 1 (YOLOv8))
 
 
 
@@ -39,17 +37,30 @@ Kaggle: [Food Detection](https://www.kaggle.com/datasets/prashantsarkar/food-det
 This dataset was prepared by us and uploaded to Kaggle for public use. We prepared a dataset using images of various popular food items in India. The dataset contains 358 images of each food item isolated as well as 33 sample use cases in which the foods are interspersed with each other as well as other foods not in the dataset. The dataset usability rating is 7.50
 
 #### Sample Images
-Chapatti![Sample Image](https://i.imgur.com/QtLEsHw.jpeg)
+Chapatti
 
-Pizza![Sample Image](https://i.imgur.com/vasWL3j.jpeg)
+![Sample Image](https://i.imgur.com/QtLEsHw.jpeg)
 
-Soda![Sample Image](https://i.imgur.com/WojINJc.png)
+Pizza
 
-Idli![Sample Image](https://i.imgur.com/cQ4RRTt.jpeg)
+![Sample Image](https://i.imgur.com/vasWL3j.jpeg)
 
-Idli and Vada![Sample Image](https://i.imgur.com/JbCewEv.jpeg)
+Soda
 
-Burger, Pizza and Fries![Sample Image](https://i.imgur.com/ouriA6l.jpeghttps://i.imgur.com/QtLEsHw.jpeg)
+![Sample Image](https://i.imgur.com/WojINJc.png)
+
+Idli
+
+![Sample Image](https://i.imgur.com/cQ4RRTt.jpeg)
+
+Idli and Vada
+
+![Sample Image](https://i.imgur.com/JbCewEv.jpeg)
+
+Burger, Pizza and Fries
+
+![Sample Image](https://i.imgur.com/ouriA6l.jpeghttps://i.imgur.com/QtLEsHw.jpeg)
+
 ## Data Preparation
 
 The Data Was prepared using Roboflow and exported for YOLOv8. You can find the Roboflow link [here](https://universe.roboflow.com/intel-hackathon/food-detection-pgfas).
