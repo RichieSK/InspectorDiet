@@ -18,7 +18,8 @@ A mobile application with token authentication that allows the user to take pict
 
 ##Contents
 
-- [Deep Learning Models](## Deep Learning Models)
+- [Deep Learning Models](#Deep Learning Models)
+- [Model 1 (YOLOv8)](#Model 1 (YOLOv8))
 
 
 
