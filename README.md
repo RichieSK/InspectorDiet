@@ -507,7 +507,7 @@ These are:
 Everything besides login requires the Token to be in the header for the application to return a valid response.
 ## Demo
 
-You can see a youtube demonstration [here](https://youtu.be/eaDKzu1Nmlo)
+You can see a youtube demonstration [here](https://youtu.be/RlXGoAlhHj8)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eaDKzu1Nmlo/0.jpg)](https://youtu.be/eaDKzu1Nmlo)
 ## Acknowledgements
