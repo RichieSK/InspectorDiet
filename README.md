@@ -539,15 +539,24 @@ Furthermore, make sure both the laptop and the phone are connected on the same w
 There are mainly 7 API requests that the user can make against the server. These are the list of exposed endpoints that the Android application uses.
 
 These are:
-- /signup/ - Create a new user.
-- /login/ - Login to get an Authentication token to perform all other operations.
-- /logout/ - Logout and terminate the Authentication token's validity.
-- /myimage/ - Predicts the food contained within the image.
-- /history/ - Gets recent history of meals saved by the user.
-- /getfoods/ - Get a list of foods stored in the MongoDB Database.
-- /confirmentry/ - Save a meal and its classes into Database.
+- signup/ - Create a new user.
+- login/ - Login to get an Authentication token to perform all other operations.
+- logout/ - Logout and terminate the Authentication token's validity.
+- myimage/ - Predicts the food contained within the image.
+- history/ - Gets recent history of meals saved by the user.
+- getfoods/ - Get a list of foods stored in the MongoDB Database.
+- confirmentry/ - Save a meal and its classes into Database.
 
 Everything besides login requires the Token to be in the header for the application to return a valid response.
+  
+In case there are any bugs in the signup/ functionality where it doesn't work for any reason, you have the option of manually adding the users after creating an admin on the terminal using the following command.
+  
+```
+python manage.py createsuperuser
+```
+  
+After this, you can add new users after logging to the portal using /admin/login. The created users can be used as valid logins in the application.
+  
 ## Demo
 
 You can see a youtube demonstration [here](https://youtu.be/RlXGoAlhHj8)
