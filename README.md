@@ -411,8 +411,7 @@ The file 'download.jpg' is the image we wish to predict and its directory must b
 !python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.3 --source data/images/download.jpg
 ```
 Results:
-image 1/1 /content/yolov5/data/images/download.jpg: 480x640
-1 burger, 13.3ms
+
 ![](https://i.imgur.com/4XfocZ4.png)
 
 ![](https://i.imgur.com/qXrxZy6.png)
