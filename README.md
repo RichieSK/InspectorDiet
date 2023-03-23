@@ -438,11 +438,18 @@ The deployment side of this project involves two projects, the Django web-server
 ## Django Webserver
 The YOLO models mentioned above have been deployed on the Django webserver, which exposes its services as REST APIs to the user.
 
-These REST APIs are used to perform authentication of the user, classify images and identify the nutritional values of the foods involved.
+These REST APIs are used to perform authentication of the user, classify images and identify the nutritional values of the foods involved. The workflow can be shown below:
+- The user logs in using Authentication and receives a token.
+- Using the token, the user can view their recent searches and obtain corresponding nutritional information.
+- The user can send a picture and receive a list of foods and their corresponding nutritional values.
 
-An advantage of this method is that the user need not use an Android device. The server can also be accessed by a webpage as well using the exposed APIs mentioned below.
+The list of foods is obtained using the YOLO deep learning model mentioned above. After obtaining the list, we use a look-up table which combines information found on this [dataset](https://www.kaggle.com/datasets/trolukovich/nutritional-values-for-common-foods-and-products) and information found on the internet for Indian foods.
 
-Moreover, it removes all computational requirement on the user as we can built strong, robust models on the server and we need not have these be stored on edge devices.
+Using the above as a look-up table, we can get the nutritional values of all the foods and combine them to get a comprehensive nutritional evaluation of the foods.
+
+The advantage of using a server is that the user need not use an Android device. The server can also be accessed by a webpage as well using the exposed APIs which are mentioned below.
+
+Moreover, it removes all computational requirement on the user as we can build strong, robust models and deploy them on the server. As a consequence, we are not required to store these model on edge devices.
 
 The server accesses a MongoDB database where all the information about nutrition and users are stored. The authentication of the users happens in the Django Database.
 
@@ -557,4 +564,5 @@ You can see a youtube demonstration [here](https://youtu.be/RlXGoAlhHj8)
  - [Roboflow](https://roboflow.com)
  - [Android Studio](https://developer.android.com/studio)
  - [Django Rest Framework](https://www.django-rest-framework.org)
+ - Kaggle: [Nutritional Values for Common Foods](https://www.kaggle.com/datasets/trolukovich/nutritional-values-for-common-foods-and-products) Dataset
 
