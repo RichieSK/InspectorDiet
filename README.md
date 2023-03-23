@@ -546,7 +546,8 @@ Everything besides login requires the Token to be in the header for the applicat
 
 You can see a youtube demonstration [here](https://youtu.be/RlXGoAlhHj8)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eaDKzu1Nmlo/0.jpg)](https://youtu.be/eaDKzu1Nmlo)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RlXGoAlhHj8/0.jpg)](https://www.youtube.com/watch?v=RlXGoAlhHj8)
+
 ## Acknowledgements
 
  - [Intel oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html)
