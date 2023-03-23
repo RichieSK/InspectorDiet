@@ -564,5 +564,5 @@ You can see a youtube demonstration [here](https://youtu.be/RlXGoAlhHj8)
  - [Roboflow](https://roboflow.com)
  - [Android Studio](https://developer.android.com/studio)
  - [Django Rest Framework](https://www.django-rest-framework.org)
- - Kaggle: [Nutritional Values for Common Foods](https://www.kaggle.com/datasets/trolukovich/nutritional-values-for-common-foods-and-products) Dataset
+ - [Kaggle Dataset: Nutritional Values for Common Foods](https://www.kaggle.com/datasets/trolukovich/nutritional-values-for-common-foods-and-products)
 
