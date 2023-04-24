@@ -13,6 +13,7 @@ A mobile application with token authentication that allows the user to take pict
 - Joel Mathew
 - Caleb Stephen
 - Gibin K Jayan
+- Akash Raj
 - Ruth Moly Benjamin
 
 
